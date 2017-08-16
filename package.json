@@ -4,9 +4,17 @@
   "description": "DSL or less verbose propTypes declarations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.test.js"
   },
   "keywords": [],
   "author": "Michelle Tilley <michelle@michelletilley.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "react": "^15.6.1"
+  }
 }
