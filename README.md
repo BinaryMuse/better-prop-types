@@ -5,7 +5,7 @@ A DSL for less verbse `propTypes` declarations in React.
 ## Installation
 
 ```
-npm install [--save] better-prop-types
+npm install better-prop-types
 ```
 
 ## Usage
