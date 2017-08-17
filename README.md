@@ -29,7 +29,7 @@ BetterPropTypes makes two assertions:
 1. **Most props should usually be required** by default, and optional props should be made explict (rather than the other way around)
 2. **Nested object types are a pain to declare** due to lots of nested `PropTypes.shape({...}).isRequired` calls
 
-To remedy this, BetterPropTypes exports an interface just like the normal `prop-types` package, but with the following changes:
+To remedy this, BetterPropTypes exports an interface just like [the normal `prop-types` package](https://www.npmjs.com/package/prop-types), but with the following changes:
 
 1. All types are required by default; call `.opt` on them to make them optional
 2. Instead of `PropTypes.shape({...}).isRequired`, for required objects, simply use plain objects
